@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "WaifusListAnimes.Controllers.AnimeController",
+    "Method": "GetAnimes",
+    "RelativePath": "api/Anime",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaifusListAnimes.Controllers.AnimeController",
+    "Method": "PostAnime",
+    "RelativePath": "api/Anime",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anime",
+        "Type": "WaifusListAnimes.Models.Anime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaifusListAnimes.Controllers.AnimeController",
+    "Method": "PutAnime",
+    "RelativePath": "api/Anime",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anime",
+        "Type": "WaifusListAnimes.Models.Anime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaifusListAnimes.Controllers.AnimeController",
+    "Method": "DeleteAnime",
+    "RelativePath": "api/Anime/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaifusListAnimes.Controllers.AnimeController",
+    "Method": "GetAnime",
+    "RelativePath": "api/Anime/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WaifusListAnimes.Controllers.AnimeController",
+    "Method": "GetAnimePesquisa",
+    "RelativePath": "api/Anime/Pesquisar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "valor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
