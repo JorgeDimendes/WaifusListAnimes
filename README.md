@@ -36,6 +36,6 @@ Em breve
 
 
 # ✍️ Autor
-Jorge Menezes
-📧 jorgedimendes@hotmail.com
-🐙 github.com/jorgedimendes
+- 👨🏾‍💻 Jorge Menezes
+- 📧 jorgedimendes@hotmail.com
+- 🐙 github.com/jorgedimendes
